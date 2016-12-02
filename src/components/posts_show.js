@@ -38,8 +38,9 @@ class PostsShow extends Component {
         
         <div>
             <Link to='/'>Back to Index</Link>
+            <p></p>
             <button 
-                className='btn btn-danger pull-right'
+                className='btn btn-danger float-xs-right'
                 onClick={this.onDeleteClick.bind(this)}>
                 Delete Post
             </button>

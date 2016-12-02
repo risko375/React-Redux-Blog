@@ -20,10 +20,12 @@ class PostsIndex extends Component {
             
                 <li className='list-group-item' key={post.id}>
                   
-                    <span className='pull-right'>{post.categories}</span>
+                    
                     <Link to={'posts/' + post.id}>
+                    <span className='float-xs-right'>{post.categories}</span>
                     <strong>{post.title}</strong>
                     </Link>
+                    
                 </li>
             );
         });
