@@ -1,25 +1,5 @@
-# ReduxSimpleStarter
+A React Redux Blog enabling user to view, create and delete blog posts.
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+Utilises React-Router for navigation and rendering correct components, Axios library for async API call, React-Promise as middleware and React-Form to manage form inputs and validation.
 
-###Getting Started###
-
-There are two methods for getting started with this repo.
-
-####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
-```
-
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-	> npm install
-	> npm start
-```
+Bootstrap for basic styling```
